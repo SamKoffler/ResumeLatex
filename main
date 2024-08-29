@@ -113,9 +113,9 @@
 
 \begin{center}
     \textbf{\Huge \scshape Samuel Koffler} \\ \vspace{1pt}
-    \small 269-251-9883 $|$ \href{mailto:x@x.com}{\underline{kofflers@msu.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/SamKoffler}}
+    \small 269-251-9883 $|$ \href{kofflers@msu.edu}{\underline{kofflers@msu.edu}} $|$ 
+    \href{https://www.linkedin.com/in/samuel-koffler/}{\underline{linkedin.com/in/samuel-koffler}} $|$
+    \href{https://github.com/SamKoffler}{\underline{github.com/SamKoffler}}
 \end{center}
 
 
@@ -124,7 +124,8 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Michigan State University}{East Lansing, MI}
-      {Bachelor of Arts in Computer Science, Minor in Leadership and Integrated Learning}{Aug. 2022 -- May 2026}
+      {Bachelor of Science - Computer Science; GPA: 3.60}{Aug. 2022 -- May 2026}
+
   \resumeSubHeadingListEnd
 
 
@@ -183,10 +184,10 @@ tips and cash owed to the restaurant}
           \resumeItemListEnd
           
       \resumeProjectHeading
-          {\textbf{Personal Linktree} $|$ \emph{Python, CSS, Streamlit}}{July 2024 -- July 2024}
+          {\textbf{Link Tree} $|$ \emph{Python, CSS, Streamlit}}{July 2024 -- July 2024}
           \resumeItemListStart
             \resumeItem{Created a custom Linktree with user-interface through Streamlit services}
-            \resumeItem{Implemented code for URLs that branch to my different socials}
+            \resumeItem{Implemented code for URLs that branch to different socials}
           \resumeItemListEnd
 
       \resumeProjectHeading
@@ -194,20 +195,19 @@ tips and cash owed to the restaurant}
           \resumeItemListStart
             \resumeItem{Built a program for a user to enter their current Wordle words entered}
             \resumeItem{Will ask for the green, yellow, then grey letters and outputs the only possible words}
+            \resumeItemListEnd
 
       \resumeProjectHeading
           {\textbf{TicTacToe Game} $|$ \emph{Python, PyGame}}{April 2024 -- April 2024}
           \resumeItemListStart
-            \resumeItem{Created a user-interface 2 player TicTactoe game in Python through PyGame}
+            \resumeItem{Created a user-interface for a 2 player TicTactoe game through PyGame}
             \resumeItem{Coded all possibilities for win conditions and reset conditions}
-
           \resumeItemListEnd
 
           \resumeProjectHeading
           {\textbf{AO MSU} $|$ \emph{MIT App Inventor}}{Sep. 2023 -- Nov. 2023}
           \resumeItemListStart
             \resumeItem{Developed an organization app for new Michigan State students}
-          \resumeItemListStart
             \resumeItem{Created a hub with links to all of the most important information in one place}
             \resumeItem{Utilized statistical analysis on surveys to make improvements to the app}
           \resumeItemListEnd
@@ -222,12 +222,11 @@ tips and cash owed to the restaurant}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Python, C++, C, ARM Assembly, Linux} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: PyCharm, VS Code, CLion, Github, Doxygen, Android Studio, Visual Paradigm UML editor, Google Test unit testing} \\
-     \textbf{Libraries}{: SymPy, NumPy, PyGame, Matplotlib, Pandas, Datetime}
+     \textbf{Developer Tools}{: PyCharm, VS Code, CLion, Github, Doxygen, Android Studio, Visual Paradigm UML editor, Google Test} \\
+     \textbf{Libraries}{: NumPy, SymPy, PyGame, Matplotlib, Pandas, Datetime}
     }}\\
-     \textbf{Completed Classes}{: Data Structures and Algorithms(Python), Introduction to Programming II(C++), } \\
-     \textbf{Enrolled Classes}{: Object Oriented Programming(C++)} \\
+     \textbf{Completed Courses}{: Data Structures and Algorithms(Python), System Organization and Architecture(C/Assembly), Matrix Algebra(Python), Discrete Math} \\
+     \textbf{Enrolled Courses}{: Object-Oriented Software Development(C++), Computer Systems(C/C++), Probability and Statistics for Engineering(Python)} \\
  \end{itemize}
 
 
