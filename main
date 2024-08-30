@@ -141,6 +141,14 @@
 tips and cash owed to the restaurant}
 
       \resumeItemListEnd
+
+    \resumeSubheading
+      {Shopper}{March 2022 -- June. 2023}
+      {Shipt}{Kalamazoo, MI}
+      \resumeItemListStart
+        \resumeItem{Rated 4.9-star shopper over 200+ grocery deliveries}
+
+      \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
@@ -173,7 +181,7 @@ tips and cash owed to the restaurant}
           \resumeItemListStart
             \resumeItem{Designed a program for users to enter a food into a terminal, and add it to the daily calorie total}
             \resumeItem{Imported the datetime library for totaling calorie counts for the week}
-            \resumeItem{Includes hash map with keys as the foods and calories the values}
+            \resumeItem{Includes hash map with foods (strings) as the keys and calories (ints) as the values}
           \resumeItemListEnd
 
         \resumeProjectHeading
@@ -193,8 +201,9 @@ tips and cash owed to the restaurant}
       \resumeProjectHeading
           {\textbf{Wordle Word Recommender} $|$ \emph{Python, PyCharm}}{April 2024 -- April 2024}
           \resumeItemListStart
-            \resumeItem{Built a program for a user to enter their current Wordle words entered}
-            \resumeItem{Will ask for the green, yellow, then grey letters and outputs the only possible words}
+            \resumeItem{Built a program to help a user guess a Worlde word based on their game information}
+            \resumeItem{Calculates and outputs the possible Wordle words by asking for the green, yellow, then grey letters}
+            \resumeItem{Optimized runtime by starting with word bank of 15,000 words, then siphoning the possible words each check}
             \resumeItemListEnd
 
       \resumeProjectHeading
