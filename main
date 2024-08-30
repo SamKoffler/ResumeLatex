@@ -210,6 +210,7 @@ tips and cash owed to the restaurant}
           {\textbf{TicTacToe Game} $|$ \emph{Python, PyGame}}{April 2024 -- April 2024}
           \resumeItemListStart
             \resumeItem{Created a user-interface for a 2 player TicTactoe game through PyGame}
+            \resumeItem{Accepts user input through mouse clicks on the play screen, adding an "X" or "O" to the display accordingly}
             \resumeItem{Coded all possibilities for win conditions and reset conditions}
           \resumeItemListEnd
 
