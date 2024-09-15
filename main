@@ -172,6 +172,14 @@ tips and cash owed to the restaurant}
   \resumeSubHeadingListEnd
 
 
+
+
+
+
+
+
+
+
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
@@ -201,7 +209,7 @@ tips and cash owed to the restaurant}
       \resumeProjectHeading
           {\textbf{Wordle Word Recommender} $|$ \emph{Python, PyCharm}}{April 2024 -- April 2024}
           \resumeItemListStart
-            \resumeItem{Built a program to help a user guess a Worlde word based on their game information}
+            \resumeItem{Built a program to help a user guess a Wordle word based on their game information}
             \resumeItem{Calculates and outputs the possible Wordle words by asking for the green, yellow, then grey letters}
             \resumeItem{Optimized runtime by starting with word bank of 15,000 words, then siphoning the possible words each check}
             \resumeItemListEnd
@@ -224,7 +232,11 @@ tips and cash owed to the restaurant}
           
     \resumeSubHeadingListEnd
 
-
+% \section{Leadership Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Python, C++, C, ARM Assembly, Linux} \\
+%     }}\\
 
 %
 %-----------PROGRAMMING SKILLS-----------
@@ -242,3 +254,28 @@ tips and cash owed to the restaurant}
 
 %-------------------------------------------
 \end{document}
+
+
+
+
+
+%-----------LEADSERHIP EXPERIENCE-----------
+\section{Leadership}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Project Lead}{Aug. 2024 -- Present}
+      {Imagine Software}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Worked with a team to develop passion driven projects using multiple frameworks}
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {President}{August 2022 -- Present}
+      {Residence Hall Government}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Led a team of 7 people to run events and make purchase orders for new commodities for the residence hall}
+        \resumeItem{Managed a total budget of 20,000 dollars for event planning, purchases, and improvements to enhance student living}
+
+      \resumeItemListEnd
