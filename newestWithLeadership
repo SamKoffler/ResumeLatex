@@ -5,6 +5,14 @@
 % License : MIT
 %------------------------
 % Add hackathon to it
+    % \resumeSubheading
+    %   {Project Lead}{Sep. 2024 -- Sep. 2024}
+    %   {MHacks Hackathon}{East Lansing, MI}
+      \resumeProjectHeading
+          {\textbf{Project Lead} $-$ \emph{Imagine Software}}{Ann Arbor, MI - Aug. 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led a team of 5 people to develop a location finder program using Boundary}
+      \resumeItemListEnd
 
 \documentclass[letterpaper,11pt]{article}
 
