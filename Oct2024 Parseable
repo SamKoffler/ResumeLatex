@@ -1,0 +1,278 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Samuel Koffler} \\ \vspace{1pt}
+    \small 269-251-9883 $|$ \href{kofflers@msu.edu}{\underline{kofflers@msu.edu}} $|$ 
+    \href{https://www.linkedin.com/in/samuel-koffler/}{\underline{linkedin.com/in/samuel-koffler}} $|$
+    \href{https://github.com/SamKoffler}{\underline{github.com/SamKoffler}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Michigan State University}{East Lansing, MI}
+      {Bachelor of Science - Computer Science; GPA: 3.60}{Aug. 2022 -- May 2026}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, C, JavaScript, ARM Assembly, Linux} \\
+     \textbf{Developer Tools}{: Github, GitLab, PyCharm, VS Code, CLion, React Native, Visual Paradigm, Google Test} \\
+     \textbf{Libraries}{: NumPy, SymPy, PyGame, Matplotlib, Pandas, Datetime}
+    }}\\
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+
+
+    \resumeSubheading
+      {Project Lead}{Aug. 2024 -- Present}
+      {Imagine Software}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Led a team of 5 in developing an innovative, proprietary full-stack Calorie Counter application}
+        \resumeItem{Encouraged test driven development to create an outline for a mobile app with React Native}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {President}{Aug. 2022 -- Present}
+      {Residence Hall Government}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Led a group of 7 people to run events and make purchase orders for new commodities for a body of 1200 students}
+        \resumeItem{Managed a total budget of \$20,000 for event planning, purchases, and improvements to enhance resident living}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Server}{June 2023 -- Jan. 2024}
+      {Carrabba's Italian Grill}{Portage, MI}
+      \resumeItemListStart
+        \resumeItem{Served up to 5 tables at once while keeping account of food runners, staying in check with cooks, and managing
+tips and cash owed to the restaurant}
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Shopper}{March 2022 -- June. 2023}
+      {Shipt}{Kalamazoo, MI}
+      \resumeItemListStart
+        \resumeItem{Shopped and delivered groceries to achieve a 4.9-star rating over 200+ grocery deliveries}
+
+      \resumeItemListEnd
+
+
+    % \resumeSubheading
+    %   {Server}{Aug. 2019 -- Sep. 2020}
+    %   {StoryPoint Senior Living Community}{Portage, MI}
+    %   \resumeItemListStart
+    %     \resumeItem{Made residents feel welcome with a warm and cheerful presence}
+    %     \resumeItem{Took orders, communicated with cooks and other servers, and served meals}
+    % \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{GeoLocator} $|$ \emph{Groq, Boundary, Python, VS Code}}{Sep. 2024 -- Sep. 2024}
+          \resumeItemListStart
+            \resumeItem{At \textbf{MHacks 17 Hackathon}, worked with a group of 4 to create a program identifying the country and city from an image}
+            \resumeItem{Focused on back-end development to input an image and output the most likely location using Boundary to decompress larger components into variables to optimize the OODA loop for Groq image recognition software}
+            \resumeItem{Achieved 80\% and 60\% accuracy from country and city recognition respectfully from 50,000 Google Maps photos}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Calorie Counter} $|$ \emph{Python, PyCharm}}{Aug. 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Designed a program for users to enter a food into a terminal, and add it to the daily calorie total}
+            \resumeItem{Imported the datetime library for totaling calorie counts for the week}
+            \resumeItem{Includes hash map with foods (strings) as the keys and calories (ints) as the values}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Binary Tree Generator} $|$ \emph{C++, CLion}}{Aug. 2024 -- Sep. 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a user-customizable binary tree creator using skills learned from Data Structures and Algorithms course}
+            \resumeItem{Prompts the user to enter values that are then sorted and printed out in a binary tree}
+          \resumeItemListEnd
+
+          
+      % \resumeProjectHeading
+      %     {\textbf{Link Tree} $|$ \emph{Python, CSS, Streamlit}}{July 2024 -- July 2024}
+      %     \resumeItemListStart
+      %       \resumeItem{Created a custom Linktree with user-interface through Streamlit services}
+      %       \resumeItem{Implemented code for URLs that branch to different socials}
+      %     \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Wordle Word Recommender} $|$ \emph{Python, PyCharm}}{April 2024 -- April 2024}
+          \resumeItemListStart
+            \resumeItem{Built a program to help a user guess a Wordle word based on their game information}
+            \resumeItem{Calculates and outputs the possible Wordle words by asking for the green, yellow, then grey letters}
+            \resumeItem{Optimized runtime by starting with word bank of 15,000 words, then siphoning the possible words each check}
+            \resumeItemListEnd
+
+      % \resumeProjectHeading
+      %     {\textbf{TicTacToe Game} $|$ \emph{Python, PyGame}}{April 2024 -- April 2024}
+      %     \resumeItemListStart
+      %       \resumeItem{Created a user-interface for a 2 player TicTactoe game through PyGame}
+      %       \resumeItem{Accepts user input through mouse clicks on the play screen, adding an "X" or "O" to the display accordingly}
+      %       \resumeItem{Coded all possibilities for win conditions and reset conditions}
+      %     \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{AO MSU} $|$ \emph{MIT App Inventor}}{Sep. 2023 -- Nov. 2023}
+          \resumeItemListStart
+            \resumeItem{Developed an organization app for new Michigan State students}
+            \resumeItem{Created a hub with links to all of the most important information in one place}
+            \resumeItem{Utilized statistical analysis on surveys to make improvements to the app}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+% \section{Leadership Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Python, C++, C, ARM Assembly, Linux} \\
+%     }}\\
+
+%
+% %-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Python, C++, C, ARM Assembly, Linux} \\
+%      \textbf{Developer Tools}{: PyCharm, VS Code, CLion, Github, Doxygen, Android Studio, Visual Paradigm UML editor, Google Test} \\
+%      \textbf{Libraries}{: NumPy, SymPy, PyGame, Matplotlib, Pandas, Datetime}
+%     }}\\
+%      \textbf{Completed Courses}{: Data Structures and Algorithms(Python), System Organization and Architecture(C/Assembly), Matrix Algebra(Python), Discrete Math} \\
+%      \textbf{Enrolled Courses}{: Object-Oriented Software Development(C++), Computer Systems(C/C++), Probability and Statistics for Engineering(Python)} \\
+%  \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
