@@ -231,7 +231,7 @@ tips and cash owed to the restaurant}
       \resumeProjectHeading
           {\textbf{Wordle Word Recommender} $|$ \emph{Python, PyCharm}}{April 2024 -- April 2024}
           \resumeItemListStart
-            \resumeItem{Built a program to help a user guess a Wordle word based on their game information}
+            \resumeItem{Built a program to help a user guess a Wordle word based on their inputted game information}
             \resumeItem{Calculates and outputs the possible Wordle words by asking for the green, yellow, then grey letters}
             \resumeItem{Optimized runtime by starting with word bank of 15,000 words, then siphoning the possible words each check}
             \resumeItemListEnd
