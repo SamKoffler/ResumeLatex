@@ -13,7 +13,7 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-
+%Technnical skills is moved to top
 %----------FONT OPTIONS----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
