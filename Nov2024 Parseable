@@ -146,6 +146,7 @@
       \resumeItemListStart
         \resumeItem{Led a team of 5 in developing an innovative, proprietary full-stack Calorie Counter application}
         \resumeItem{Encouraged test driven development to create an outline for a mobile app with React Native}
+        \resumeItem{Created a full stack application using Git control}
       \resumeItemListEnd
 
     \resumeSubheading
